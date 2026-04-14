@@ -68,6 +68,8 @@ nav a:hover {
 }
 
 .btn-principal {
+    display: inline-block;
+    margin-top: 20px;
     background-color: #e3000f;
     color: #ffffff;
     padding: 15px 30px;
