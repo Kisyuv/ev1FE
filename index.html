@@ -3,56 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biobio Descubre | Descubre la Región del Biobío</title>
+    <title>Biobío Descubre | Descubre La Region Del Biobio</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
+
     <header>
         <div class="logo">
-            <h2>Biobio Descubre</h2>
+            <h2>Biobío Descubre</h2>
         </div>
         <nav>
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Destinos</a></li>
-                <li><a href="#">Emprendedores</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Mis Viajes</a></li>
+                <li><a href="#">Centro de Ayuda</a></li>
             </ul>
         </nav>
     </header>
-    
+
     <main>
         <section class="hero">
-            <div class="hero-contenido">
+            <div class="hero-bg">
                 <h1>Descubre la Región del Biobío</h1>
-                <p>Explora los mejores destinos, actividades y cultura de la región del Biobío en Chile.</p>
-                <a href="#" class="btn-principal">Explorar Destinos</a>
             </div>
-        </section>
-        
-        <section class="servicios">
-            <h2>¿Que encontraras en nuestra plataforma?</h2>
-
-            <div class="contenedor-columnas">
-                <article class="tarjeta-servicio">
-                    <h3>Emprendedores Locales</h3>
-                    <p>Apoya el comercio local y descubre productos unicos de la region</p>
-                </article>
-
-                <article class="tarjeta-servicio">
-                    <h3>Guias turisticos</h3>
-                    <p>Recorre los mejores lugares de la region con nuestros guias turisticos</p>
-                </article>
-
-                <article class="tarjeta-servicio">
-                    <h3>Alojamientos</h3>
-                    <p>Descansa en alojamientos seleccionados para una mayor comodidad</p>
-                </article>
-
+            
+            <div class="buscador-latam">
+                <div class="tabs">
+                    <button class="tab activo">Experiencias</button>
+                    <button class="tab">Alojamientos</button>
+                </div>
+                <div class="formulario">
+                    <div class="input-group">
+                        <label>Origen / Destino</label>
+                        <input type="text" placeholder="Ej: Lota, Antuco">
+                    </div>
+                    <div class="input-group">
+                        <label>Fechas</label>
+                        <input type="text" placeholder="Ida - Vuelta">
+                    </div>
+                    <button class="btn-latam">Buscar</button>
+                </div>
             </div>
         </section>
 
+        <section class="destinos">
+            <h2>Ofertas en destinos regionales</h2>
+            <div class="grid-tarjetas">
+                
+                <article class="card">
+                    <div class="card-img" style="background-color: #ccc;"></div>
+                    <div class="card-body">
+                        <h3>Ruta del Carbón - Lota</h3>
+                        <p>Tour guiado por las minas.</p>
+                        <span class="precio">Desde $15.000</span>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-img" style="background-color: #aaa;"></div>
+                    <div class="card-body">
+                        <h3>Trekking Volcán Antuco</h3>
+                        <p>Aventura en la cordillera.</p>
+                        <span class="precio">Desde $25.000</span>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-img" style="background-color: #888;"></div>
+                    <div class="card-body">
+                        <h3>Cabañas - Dichato</h3>
+                        <p>Frente al mar, sustentable.</p>
+                        <span class="precio">Desde $45.000</span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
     </main>
 
     <footer>
